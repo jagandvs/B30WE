@@ -2,17 +2,13 @@ fetch("https://613476997859e700176a38af.mockapi.io/api/v1/user")
   .then((response) => response.json())
   .then((data) => {
     var container = document.getElementById("container");
-
     var table = document.createElement("table");
     table.setAttribute("width", "100%");
     container.appendChild(table);
-    //   "name": "name 9",
-    //   "email_id": "email_id 9",
-    //   "mobile_number": "mobile_number 9",
     console.log(data);
 
-    let filterData = data.filter((value) => value.age < 18);
-    filterData.map((value) => {
+    let filterData2 = data.filter((value) => value.age < 18);
+    filterData2.map((value) => {
       var tr1 = document.createElement("tr");
       table.appendChild(tr1);
 
