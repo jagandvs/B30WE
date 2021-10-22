@@ -1,0 +1,44 @@
+table {
+  width: 100%;
+  border: 2px solid black;
+  background-color: #ffffdd;
+}
+/* Pseudo classes */
+
+table td:first-child {
+  width: 10%;
+  overflow: hidden;
+}
+table td:last-child {
+  width: 90%;
+  overflow: hidden;
+}
+
+.ex1 {
+  width: 100px;
+  padding: 10px;
+  margin: 10px;
+  height: 100px;
+  overflow: visible;
+}
+
+table td {
+  border: 1px solid black;
+}
+h1 {
+  font-size: 18px;
+}
+table #tdata {
+  background-color: #8c2020;
+}
+input[type="text"] {
+  width: 30px;
+}
+
+a {
+  color: #8c2020;
+}
+
+a:hover {
+  color: blue;
+}

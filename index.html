@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>GUVI</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+    />
+  </head>
+  <body>
+    <!-- <h1>WELOCME TO GUVI</h1>
+<h2>WELOCME TO GUVI</h2>
+<h3>WELOCME TO GUVI</h3>
+<h4>WELOCME TO GUVI</h4>
+<h5>WELOCME TO GUVI</h5>
+<h6>WELOCME TO GUVI</h6> -->
+
+    <!-- <table>
+	<tr>
+		<td>name</td>
+		<td>mobile no</td>
+		<td>age</td>
+		<td>gender</td>
+	</tr>
+	<tr>
+		<td>name</td>
+		<td>mobile no</td>
+		<td>age</td>
+		<td>gender</td>
+	</tr>
+	<tr>
+		<td>name</td>
+		<td>mobile no</td>
+		<td>age</td>
+		<td>gender</td>
+	</tr>
+	<tr>
+		<td>name</td>
+		<td>mobile no</td>
+		<td>age</td>
+		<td>gender</td>
+	</tr>
+	<tr>
+		<td>name</td>
+		<td>mobile no</td>
+		<td>age</td>
+		<td>gender</td>
+	</tr>
+
+
+	
+</table> -->
+
+    <div id="ex2"></div>
+
+    <form name="panapplication" method="post" onsubmit="return myfunction();">
+      <!-- -> Input field(Date, Number, Text)
+-> Chekbox
+-> Dropdown
+-> Radio button -->
+      <div class="alert alert-primary" role="alert">
+        This is a secondary alert—check it out!
+      </div>
+      <table>
+        <tr>
+          <td colspan="2" id="tdata">
+            <h1 class="text-center text-white">Pan Card Application</h1>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label></label>
+          </td>
+          <td>
+            <input
+              type="text"
+              name="username"
+              id="username"
+              placeholder="Enter Username"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <h1>dfsdfsdfsdfsdfsf</h1>
+          </td>
+
+          <td>
+            <input
+              class="form-control"
+              type="number"
+              name="mobileno"
+              id="mobileno"
+              placeholder="Enter Mobile number"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <i class="fal fa-address-book"></i>
+            <i class="fab fa-algolia"></i>
+            <i class="fab fa-amazon"></i>
+            <i class="far fa-star"></i>
+          </td>
+          <td>
+            <input
+              class="form-control"
+              type="datetime-local"
+              name="date"
+              id="date"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label></label>
+          </td>
+          <td>
+            <input type="radio" id="male" name="gender" value="male" />
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female" />
+            <label for="female">FeMale</label>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label></label>
+          </td>
+          <td>
+            <input type="checkbox" id="cricket" name="int1" value="Cricket" />
+            <label for="cricket">Cricket</label>
+            <input type="checkbox" id="football" name="int2" value="Football" />
+            <label for="football">Football</label>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label></label>
+          </td>
+          <td>
+            <label>firstname</label><br />
+            <select name="dept" id="dept" class="form-control">
+              <option value="">Please Select</option>
+              <option value="ECE">ECE</option>
+              <option value="CSE">CSE</option>
+              <option value="MECH">MECH</option>
+              <option value="CIVIL">CIVIL</option>
+            </select>
+          </td>
+        </tr>
+      </table>
+      <a href="https://www.guvi.in/" target="_blank">Click here</a>
+      <button class="btn btn-warning" name="myBtn" id="myBtn">
+        Trt it
+      </button>
+      <p id="todaydate"></p>
+      <input type="password" name="password" />
+      <input type="email" name="email" />
+      <input type="file" name="file" />
+      <textarea rows="10" cols="50"></textarea>
+      <button class="btn btn-warning" name="button">
+        Submit
+      </button>
+    </form>
+
+    <div id="ex1">
+      Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
+      nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+    </div>
+
+    <p id="demo"></p>
+
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="script.js"></script>
+  </body>
+  <footer></footer>
+</html>

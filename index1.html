@@ -1,0 +1,129 @@
+<html>
+    <head>
+        <title>Survey Form</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        
+        <form name="myForm" onsubmit="return validateForm()" method="post">
+
+        <table width="100%">
+            <tr>
+                <td colspan="2">Name<font color="red">*</font></td>
+            </tr>
+            <tr>
+                <td style="font-weight: normal;"><input type="text" id="fname" name="fname"><br>First</td>
+                <td><input type="text" id="lname" name="lname" /><br>Last</td>
+            </tr>
+            <tr>
+                <td colspan="2">Email<font color="red">*</font></td>
+            </tr>
+            <tr>
+                <td colspan="2"><input type="email" id="em" name="em" style="width: 26%; height: 50%;"></td>
+            </tr>
+            <tr>
+                <td colspan="2">Your Experience<font color="red">*</font></td>
+            </tr>
+            <tr><td colspan="2">
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span></td>
+            </tr>
+            <tr>
+                <td colspan="2" style="font-weight: normal;">Overall, how would you rate you experience with us?</td>
+            </tr>
+            <tr>
+                <td colspan="2">How satisfied are you with<font color="red">*</font></td>
+            </tr>
+            <tr>
+                <table width="100%" class="css">
+                    <tr><center>
+                        <td></td>
+                        <td><center>Very Unsatisfied</td>
+                        <td><center>Unsatisfied</td>
+                        <td><center>Neutral</td>
+                        <td><center>Satisfied</td>
+                        <td><center>Very Satisfied</td>
+                    </tr>
+                    <tr class="css1">
+                        <td style="font-weight: normal;">Purchase</td>
+                        <td><center><input type="radio" id="pvu" name="purchase"></td>
+                        <td><center><input type="radio" id="pu" name="purchase"></td>
+                        <td><center><input type="radio" id="pn" name="purchase"></td>
+                        <td><center><input type="radio" id="ps" name="purchase"></td>
+                        <td><center><input type="radio" id="pvs" name="purchase"></td>
+                    </tr>
+                    <tr class="css">
+                        <td style="font-weight: normal;">Service</td>
+                        <td><center><input type="radio" id="svu" name="service"></td>
+                        <td><center><input type="radio" id="su" name="service"></td>
+                        <td><center><input type="radio" id="sn" name="service"></td>
+                        <td><center><input type="radio" id="ss" name="service"></td>
+                        <td><center><input type="radio" id="svs" name="service"></td>
+                    </tr>
+                    <tr>
+                        <td style="font-weight: normal;">Company Overall</td>
+                        <td><center><input type="radio" id="ovu" name="overall"></td>
+                        <td><center><input type="radio" id="ou" name="overall"></td>
+                        <td><center><input type="radio" id="on" name="overall"></td>
+                        <td><center><input type="radio" id="os" name="overall"></td>
+                        <td><center><input type="radio" id="ovs" name="overall"></td>
+                    </tr>
+                </table><br>
+            </tr>
+            <tr>
+                <td><b>How likely are you to<font color="red">*</font></b></td>
+            </tr>
+            <tr>
+                <table width="100%" class="css">
+                    <tr>
+                        <td></td>
+                        <td><center>Very Unlikely</td>
+                        <td><center>Unlikely</td>
+                        <td><center>Neutral</td>
+                        <td><center>Likely</td>
+                        <td><center>Very Likely</td>
+                    </tr>
+                    <tr>
+                        <td style="font-weight: normal;">Buy from us again</td>
+                        <td><center><input type="radio" id="bvu" name="buy"></td>
+                        <td><center><input type="radio" id="bu" name="buy"></td>
+                        <td><center><input type="radio" id="bn" name="buy"></td>
+                        <td><center><input type="radio" id="bl" name="buy"></td>
+                        <td><center><input type="radio" id="bvl" name="buy"></td>
+                    </tr>
+                    <tr>
+                        <td style="font-weight: normal;">Recommend our<br>product to others</td>
+                        <td><center><input type="radio" id="ptvu" name="product"></td>
+                        <td><center><input type="radio" id="ptu" name="product"></td>
+                        <td><center><input type="radio" id="ptn" name="product"></td>
+                        <td><center><input type="radio" id="ptl" name="product"></td>
+                        <td><center><input type="radio" id="ptvl" name="product"></td>
+                    </tr>
+                    <tr>
+                        <td style="font-weight: normal;">Recommend our<br>company to others</td>
+                        <td><center><input type="radio" id="cvu" name="company"></td>
+                        <td><center><input type="radio" id="cu" name="company"></td>
+                        <td><center><input type="radio" id="cn" name="company"></td>
+                        <td><center><input type="radio" id="cl" name="company"></td>
+                        <td><center><input type="radio" id="cvl" name="company"></td>
+                    </tr>
+                </table><br>
+            </tr>
+            <tr>
+                <td><b>Additional comments or suggestions</b><br>
+            </tr>
+            <tr>
+                <td><textarea cols="200" rows="5" name="ta" id="ta"></textarea><br>
+            </tr><br>
+            <tr>
+                <td><input type="submit">
+        </table>
+        </form>
+        <script src="script.js">
+        </script>
+    </body>
+</html>
