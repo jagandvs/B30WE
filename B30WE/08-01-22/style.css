@@ -1,0 +1,16 @@
+.oflow1 {
+  border: 2px solid red;
+  background-color: green;
+  width: 500px;
+  height: 100px;
+}
+
+@media only screen and (max-width: 600px) {
+  .oflow1 {
+    border: 2px solid blue;
+    background-color: violet;
+    width: 100px;
+    height: 50px;
+    overflow: scroll;
+  }
+}

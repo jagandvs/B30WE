@@ -1,0 +1,24 @@
+-> Overflow
+-> Measurements.
+
+centimeters
+millimeters
+inches
+pixels
+points
+
+em
+vmax
+vw
+rem
+%
+
+-> fonts.
+
+font-size // size of text
+font-weight // width/thickness 
+font-family //text
+font-style
+
+-> Icons.
+-> Media Query.
